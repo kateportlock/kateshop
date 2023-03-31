@@ -1,0 +1,100 @@
+@import './variables.scss';
+
+.App {
+    background-color: $backgroundMain;
+}
+
+.subSection {
+    height: 100vh;
+    padding-top: 20px;
+    background-color: $subSectionBackground;
+}
+
+.seconderyBg {
+    background-color: $subSectionBackground;
+}
+
+// Full height
+
+.viewHeight {
+    min-height: 100vh;
+}
+
+// Container width 
+
+.widthFitContent {
+    width: fit-content;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.width80 {
+    width: 80%;
+}
+
+.width70 {
+    width: 80%;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.width30 {
+    width: 30%;
+}
+
+.width25 {
+    width: 25%;
+}
+
+.width20 {
+    width: 20%;
+}
+
+// Site wide messages
+
+.messageSuccess {
+    color: $success;
+}
+
+.messageError {
+    color: $error;
+}
+
+// Background wave 
+
+.wave-container {
+    background: $backgroundMain;
+}
+
+.wave-container>svg {
+    display: block;
+}
+
+// Box shadow for product boxes
+
+.boxShadow {
+    box-shadow: $boxShadow;
+}
+
+// Container for each page
+
+.section {
+    min-height: 100vh;
+}
+
+// Fix z-index - override Bulma
+
+.select:not(.is-multiple):not(.is-loading)::after {
+    z-index: 0 !important;
+}
+
+
+
+
+
+
+

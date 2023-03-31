@@ -1,0 +1,19 @@
+.productCard {
+    width: 300px;
+    border: 1px solid rgb(238, 238, 238);
+    background-color: white;
+    padding-top: 15px;
+    gap: 10px;
+
+    img {
+        width: 266px;
+        height: 390px; 
+    }
+}
+
+.productDesc {
+    overflow: hidden;
+    max-width: 150ch;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
