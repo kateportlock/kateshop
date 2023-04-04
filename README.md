@@ -4,12 +4,16 @@ Kateshop is a full-stack app built with React.js on the frontend and Node.js wit
 
 Features for Customers:
 
+![demo](shop-demo.png)
+
 * Browse, search, and view detailed product information
 * Add or remove products from cart, change quantity, and apply discounts
 * Checkout as guest or create an account to keep track of past orders
 * Manage account information, including changing password/username, viewing past orders, and deleting the account
 
 Manage shop features:
+
+![demo2](shop-demo2.png)
 
 * Manage stock levels, update product information, and change product positions
 * Adjust user privileges, such as granting access to staff or admin-level users
@@ -19,7 +23,7 @@ Manage shop features:
 
 Some of upcoming features:
 * Payment system integration
-* Review and rating systems for registered customers
+* Product reviews and rating systems available to registered customers
 * Password reset emails
 * UI/UX enhancements
 
